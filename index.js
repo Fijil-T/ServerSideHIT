@@ -23,8 +23,8 @@ app.use('', routes);
 app.use(express.json());
 connectDB();
 
-app.listen(3000, () => {
-    console.log(`Server Started at ${3000}`)
+app.listen(8080, () => {
+    console.log(`Server Started at ${8080}`)
 })
 
 
