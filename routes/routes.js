@@ -11,7 +11,7 @@ router.post('/post', (req, res) => {
 router.get('/about', (req, res) => {
     const developerJson = [
         {
-            'first_name': 'Oran',
+            'first_name': 'Test',
             'last_name': 'Mor',
             'id': '318854338',
             'email': 'oranmor9@gmail.com'
